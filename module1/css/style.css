@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --text-color: #4B5D68;
+    --accent-color: #212353;
+    --first-color: #9C69E2;
+    --second-color: #F063B826;
+    --light-color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color);
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 62px 0;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    margin-left: 121px;
+}
+
+.navigation__item {
+    margin-right: 40px;
+}
+
+.navigation__link {
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: var(--accent-color);
+}
+
+.main {
+    padding-top: 81px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.main__title {
+    width: 645px;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+}
+
+.main__text {
+    width: 380px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main__button {
+    background-color: var(--first-color);
+    color: var(--light-color);
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 16px 37px;
+    display: inline-block;
+}
+
+.main__img {
+    position: absolute;
+    bottom: 0;
+    right: -128px;
+}
+
+.description {
+    background: var(--second-color);
+    opacity: 0.15;
+    border-radius: 50px;
+}
